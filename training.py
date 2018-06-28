@@ -125,7 +125,7 @@ def voted_classification_result(classifier , test_set):
     print("Confusion Metrics : \n", ConfusionMatrix(reflist, testlist))
 
 # Reading Data
-tweets = ReadData("datasetnew.csv")
+tweets = ReadData("tweetdata.csv")
 
 # Pickling data
 save_tweets = open("trained_classifier/tweets.pickle","wb")
